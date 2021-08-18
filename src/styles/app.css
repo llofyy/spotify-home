@@ -1,0 +1,41 @@
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+}
+
+.playlists {
+    padding: 10px;
+    overflow-y: scroll;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 116px;
+}
+
+.playlists::-webkit-scrollbar {
+    width: 7px;
+}
+
+.playlists::-webkit-scrollbar-track {
+background: #030303;
+border-radius: 10px;
+}
+
+
+.playlists::-webkit-scrollbar-thumb {
+background: grey;
+border-radius: 10px;
+}
+
+.playlists::-webkit-scrollbar-thumb:hover {
+background: #a5a5a5; 
+}
+
+.playlists h1 {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
